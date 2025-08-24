@@ -3,8 +3,10 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    display: grid; 
+header { 
+    height: 129px;
+    background-color: #02367bff;
+    padding: 2vw;
 }
 
 p {
@@ -19,12 +21,6 @@ h1, h2, h3 {
     font-family: "Libre Baskerville" serif;
 }
 
-.blue-ribbon {
-    height: 132px; 
-    background-color: #02367bff;
-    z-index: 1;
-}
-
 .right-box {
     margin-top: 10px;
     color: white;
@@ -33,12 +29,14 @@ h1, h2, h3 {
 
 .right-box h2 {
     font-style: italic;
+    color: rgb(198, 209, 174);
+    font-size: clamp(18px, 6vw, 25px);
 }
 
 .image-triange {
-    position:absolute;
+    position:relative;
     height: 200px;
-    top:130px;
+    top: 2vw;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -96,6 +94,21 @@ footer button {
     margin-bottom: -2px;
     width: 100%;
 }
+
+.button-to-top {
+    position: relative;
+    bottom: 2vw;
+}
+
+@media screen and (max-width: 226px) {
+    header {
+        height: 200px;
+    }
+}
+
+
+
+
 
 
 /* Medium veiwport at 435px wide */
