@@ -1,0 +1,45 @@
+@media screen and (min-width: 1150px) {
+    header {
+        margin-right: 120px;   
+    } 
+
+    header:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -120px; /* move arrowhead to the right edge */
+        border-top: calc(68px + 2vw) solid transparent;
+        border-bottom: calc(67px + 2vw) solid transparent;
+        border-left: 120px solid #02367bff; /* points the arrowhead to the right */
+        height: 0;
+        width: 0;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+
+    .right-paper {
+        display: grid; 
+        grid-template-columns: auto auto;
+        grid-auto-flow: column; /* or define columns manually */
+        align-items: start;     /* top vertical alignment */
+        /* justify-content: space-around; horizontal spacing */
+        width: 100%; 
+        justify-content: space-around;
+    }
+
+    .button-hobby {
+        grid-column: 1/2;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+
+    .container-education {
+        grid-column: 1;
+        justify-self: center;
+    }
+
+    .ribbon-left {
+        width: calc(295px + 8vw);
+    }
+}

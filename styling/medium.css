@@ -1,0 +1,160 @@
+@media screen and (min-width: 437px) {
+
+    header {
+        position: relative;
+        height: 50px;
+        
+    }
+
+    header .box-right h2 {
+        color:black;
+        font-size: 20px;
+    }
+
+     header .box-right h1 {
+        font-size: 30px;
+    }
+
+    .image-triangle {
+        position: absolute;
+        transform: none;
+        left: -2px;
+        height: 100%;
+    }
+
+    .small-veiwport {
+        display: none;
+    }
+
+    .medium-veiwport {
+        display: block; 
+        top: 0px;
+        height: 191%;
+    }
+
+    header .box-right {
+        position: absolute;
+        left: 34vw;
+        top: 25%; 
+        width: 300px; /* or whatever width you want */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* horizontally center content */
+        justify-content: center; /* vertically center content */
+        text-align: center; /* center text inside h1, h2 */
+    }
+
+    .ribbon-left {
+        background-color: #282828ff;
+        color: #c6d1ae;
+        max-width: 470px;
+        padding: 15px;
+        margin: 10px; 
+        margin-top: 100px;
+        padding-top: 0px;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .ribbon-left :link {
+    color: rgb(61, 145, 255);
+    }
+
+
+    /* Find a way to get the contents of box 2 to the right */
+}
+
+@media screen and (min-width: 765px) {
+
+    main {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    header {
+        height: 135px;
+        z-index: 2;
+    }
+
+    header .box-right h2 {
+        color: #c6d1ae;
+    }
+
+    header .box-right {
+        display: block;
+        position: relative;
+        left: 23vh;
+        top: 0%;
+        width: auto;
+    }
+
+    .ribbon-left {
+        margin-left: 0px; 
+        margin-right: 0px; 
+        margin-top: 0px;
+        min-width: calc(215px + 8vw);
+        width: calc(215px + 8vw);
+        z-index: 1;
+    }
+
+    .ribbon-left .container-contacts {
+        margin-top: 14vh;
+    }
+
+    .main-content {
+        display: flex;
+        margin: 0px; 
+        z-index: 1;
+    }
+
+    .right-paper {
+        margin-right: auto;
+        margin-left: auto; 
+        align-items: center;
+        padding: 0px 30px; 
+    }
+
+    .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(245px + 8vw);
+        height: 100%; /* <-- full height of the parent */
+        background-color: #282828ff;
+        z-index: 1;
+    }
+
+    footer, div{
+        z-index: 2;
+    }
+
+    footer{
+        position: relative;
+        z-index: 2;
+    }
+
+    button.small-veiwport {
+        display: none; 
+    }
+
+    button.large-veiwport {
+        display: block; 
+        z-index: 3;
+        margin-left: auto; 
+        margin-right: auto;
+        margin-bottom: 20px; 
+    }
+
+    main div h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Find a way to get the contents of box 2 to the right */
+}
+
+
+
+
+/* 765 px */
