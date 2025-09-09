@@ -45,6 +45,12 @@
         text-align: center; /* center text inside h1, h2 */
     }
 
+    .main-content {
+        max-width: 470px;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
     .ribbon-left {
         background-color: #282828ff;
         color: #c6d1ae;
@@ -53,8 +59,8 @@
         margin: 10px; 
         margin-top: 100px;
         padding-top: 0px;
-        margin-left: auto; 
-        margin-right: auto; 
+        margin-left: 20px; 
+        margin-right: 20px; 
     }
 
     .ribbon-left :link {
@@ -111,6 +117,9 @@
         display: flex;
         margin: 0px; 
         z-index: 1;
+        max-width: none;
+        margin-left: 0px; 
+        margin-right: 0px; 
     }
 
     .right-paper {
