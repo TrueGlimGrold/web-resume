@@ -72,6 +72,11 @@
         flex-direction: column;
     }
 
+    body {
+        width: 100vw;
+        position: absolute;  
+    }
+
     header {
         height: 135px;
         z-index: 2;
