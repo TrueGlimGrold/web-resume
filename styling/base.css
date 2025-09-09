@@ -1,7 +1,7 @@
 html {
   --s: 34px; 
-  --c1: #fffae7;
-  --c2: #faf8ff;
+  --c1: #fffae5;
+  --c2: #f7f4ff;
   
   --_g: 
     #0000 calc(-650%/13) calc(50%/13),var(--c1) 0 calc(100%/13),
@@ -22,7 +22,6 @@ html, body {
 
 body {
     margin: 0px; 
-    overflow-x: hidden;
     min-height: 100vh;
 }
 
