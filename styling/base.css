@@ -256,6 +256,7 @@ button.large-veiwport {
 }
 
 .wrapper {
+    display: none; 
     position: fixed;      /* Stays fixed in place */
     top: 0;
     left: 0;
@@ -289,7 +290,19 @@ button.large-veiwport {
     padding: 0px; 
 }
 
+.task-list {
+    position: relative;
+    background-color: black;
+    color: red;
+    z-index: 10;
+    margin: 0px; 
+}
 
+.task-list li {
+    width: 80%;
+    margin: auto;
+    padding: 10px; 
+}
 
 @media screen and (max-width: 250px) {
     header {

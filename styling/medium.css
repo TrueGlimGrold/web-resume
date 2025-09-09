@@ -129,6 +129,10 @@
         padding: 0px 30px; 
     }
 
+    .wrapper {
+        display: block; 
+    }
+
     .background {
         position: absolute;
         top: 0;
