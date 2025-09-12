@@ -67,6 +67,10 @@
     color: rgb(61, 145, 255);
     }
 
+    .ribbon-left :link:hover {
+    color: #4ec9cfff;
+    }
+
 
     /* Find a way to get the contents of box 2 to the right */
 }

@@ -57,20 +57,16 @@ a:link {
     color: #02367bff;
 }
 
-a:hover {
-    color: #4ec9cfff;
-}
-
-a:visited:hover {
-    color: #4ec9cfff;
-}
-
 a:visited {
     color: #2988b0ff;
 }
 
 a:active {
     color: #c6d1aeff; 
+}
+
+a:hover {
+    color: #4ec9cfff;
 }
 
 h1, h2, h3, h4, h5 {
